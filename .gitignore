@@ -1,0 +1,55 @@
+# Environment & Secrets
+.env
+*.env
+.env.local
+.env.*.local
+secrets.toml
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+pip-log.txt
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+.virtualenv/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Vector Store (auto-generated, can be large)
+resources/vectorstore/
+chroma_db/
+*.db
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Logs
+*.log
+logs/
