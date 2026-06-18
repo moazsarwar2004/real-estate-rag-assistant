@@ -119,7 +119,7 @@ langchain-community
 langchain-huggingface
 langchain-text-splitters
 sentence-transformers
-protobuf
+chromadb
 ```
 
 Install everything with:
@@ -150,7 +150,7 @@ Then open your browser at `http://localhost:8501`
 ## 📸 Screenshots
 
 ### Main Interface
-![Real Estate RAG Assistant - Main UI](screenshots/app_screenshot.png)
+![Real Estate RAG Assistant - Main UI](screenshots/app_demo.png)
 
 ---
 
